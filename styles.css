@@ -4,13 +4,14 @@ body {
 }
 
 header,
-main, 
+main,
 footer {
   max-width: 900px;
   margin: 0 auto;
 }
 
-header, footer {
+header,
+footer {
   border: 1px solid rgb(2, 112, 61);
   border-radius: 15px;
   padding: 1rem;
