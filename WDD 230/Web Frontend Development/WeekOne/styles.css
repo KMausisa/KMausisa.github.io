@@ -33,3 +33,7 @@ header img {
 footer a {
   color: white;
 }
+
+#lastUpdate {
+  color: yellow;
+}
