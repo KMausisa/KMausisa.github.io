@@ -1,13 +1,21 @@
 body {
-  font-size: 16px;
+  font-size: 20px;
   font-family: monospace;
 }
 
 header,
-main,
+main, 
 footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header, footer {
   border: 1px solid rgb(2, 112, 61);
+  border-radius: 15px;
   padding: 1rem;
+  text-align: center;
+  color: white;
   background-color: rgb(5, 77, 53);
 }
 
@@ -19,12 +27,9 @@ header img {
   float: right;
   width: 200px;
   height: auto;
+
 }
 
-footer p {
-  color: white;
-}
-
-footer p a {
+footer a {
   color: white;
 }
