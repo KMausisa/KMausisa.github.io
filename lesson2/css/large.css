@@ -29,6 +29,10 @@ main div {
     border: 5px solid white;
 }
 
+a {
+  color: white;
+}
+
 .description {
     padding: 25px;
 }
