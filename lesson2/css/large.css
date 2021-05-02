@@ -33,6 +33,16 @@ a {
   color: white;
 }
 
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  background: #A07178;
+  padding: 35px;
+  border: 5px solid white;
+}
+
 .description {
     padding: 25px;
 }
