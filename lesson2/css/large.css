@@ -1,51 +1,7 @@
-body {
-    background: #E6CCBE;
-    margin: 20px;
-}
-
-header {
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 1.75em;
-  color: white;
-  text-align: center;
-  background: #A07178;
-  padding: 35px;
-  border: 5px solid white;
-}
-
-main {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5em;
-  color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
-  text-align: center;
-}
-
-main div {
-    margin: 30px 10px;
-    background:  #B69196;
-    border: 5px solid white;
-}
-
-a {
-  color: white;
-}
-
-footer {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5em;
-  color: white;
-  background: #A07178;
-  padding: 35px;
-  border: 5px solid white;
-  text-align: center;
-  grid-row: 1 / 4;
-}
-
-.description {
-    padding: 25px;
+@media only screen and (min-width: 64em) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 
