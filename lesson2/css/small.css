@@ -20,7 +20,7 @@ main {
   font-size: 1.5em;
   color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1em;
   text-align: center;
 }
