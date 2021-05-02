@@ -2,6 +2,10 @@ html {
   background-size: 30%;
 }
 
+#content {
+  max-width: 98%;
+}
+
 body {
     background: #E6CCBE;
     margin: 20px;
