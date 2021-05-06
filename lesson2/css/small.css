@@ -1,8 +1,11 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
     background: #E6CCBE;
-    max-width: 98%;
-    margin: 1em;
-    
 }
 
 header {
@@ -19,9 +22,6 @@ main {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
   color: white;
-  display: grid;
-  grid-template-columns: 1fr ;
-  grid-gap: 1em;
   text-align: center;
 }
 
