@@ -1,11 +1,11 @@
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
     background: #E6CCBE;
+    max-width: 1024px;
+    margin: auto;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
   background: #A07178;
   padding: 35px;
   border: 5px solid white;
+  margin: 1em;
 }
 
 main {
@@ -23,16 +24,22 @@ main {
   font-size: 1.5em;
   color: white;
   text-align: center;
+  width: 850px;
+  margin: auto;
 }
 
 main div {
+    background: #B69196;
     margin: 30px 10px;
-    background:  #B69196;
     border: 5px solid white;
 }
 
 a {
   color: white;
+}
+
+.image1, .image2, .image3 {
+  max-width: 350px;
 }
 
 footer {
@@ -47,5 +54,5 @@ footer {
 }
 
 .description {
-    padding: 25px;
+    padding: 0 4em;
 }
