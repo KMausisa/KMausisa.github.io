@@ -18,5 +18,15 @@
 
     main picture {
         display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+        border: 4px solid #fff;
+    }
+
+    .color-scheme {
+        grid-column: span 2;
     }
 }
