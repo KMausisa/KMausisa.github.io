@@ -54,3 +54,17 @@ nav ul li a {
 nav a:hover {
     background-color: #77685D;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+
+footer {
+    flex: 0 1 100%;
+    height: 2rem;
+}
+
+footer a {
+    color: #fff;
+}
