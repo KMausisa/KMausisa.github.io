@@ -1,0 +1,31 @@
+@media only screen and (min-width: 35rem) {
+    #primaryNav {
+		display: flex;
+	}
+	#primaryNav li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	#primaryNav a {
+		text-align: center;
+	}
+	#primaryNav li:first-child {
+		display: none;
+	}
+    
+    nav button {display: none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul {margin-left: 2%;}
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: 1rem 1rem;
+    }
+}
