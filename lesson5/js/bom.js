@@ -11,7 +11,8 @@ button.addEventListener("click", () => {
     output.append(li);
     deleteButton.addEventListener("click", function() {
         output.removeChild(li);
-        input.textContent = "Add Chapter";
+        input.value = " ";
+        button.textContent = "Add Chapter";
         input.focus();
     });
 });
