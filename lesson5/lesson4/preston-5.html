@@ -13,64 +13,101 @@
     />
     <title>Preston Town Page</title>
 
-
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="../normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
 
     <!-- script-->
     <script src="js/script.js" defer></script>
-
   </head>
   <body>
-      <header>
-        <picture>
-          <img src="images/logo.png" alt="Weather Site Logo">
-        </picture>
+    <header>
+      <picture>
+        <img src="images/logo.png" alt="Weather Site Logo" />
+      </picture>
 
-        <section>
-          <h1>The Weather Site</h1>
-          <p><em>motto</em></p>
-        </section>
-      </header>
+      <section>
+        <h1>The Weather Site</h1>
+        <p><em>motto</em></p>
+      </section>
+    </header>
 
-      <nav>
-        <button onclick="toggleMenu()">&#9776</button>
-        <ul id="primaryNav" class="hide">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Preston</a></li>
-          <li><a href="#">Soda Springs</a></li>
-          <li><a href="#">Fish Haven</a></li>
-          <li><a href="#">Storm Center</a></li>
-          <li><a href="#">Gallery</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <button onclick="toggleMenu()">&#9776</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
 
-      <main>
-
-      </main>
-
-      <footer>
-        <div class="contact">
-          <h3>Contact Information</h3>
-          <p>Telephone: (123) 456-7890</p>
-          <p>Email: weather@weathersite.com</p>
-        </div>
-
-        <div class="map">
-          <img src="https://via.placeholder.com/300x150" alt="Location Map">
-        </div>
-
-        <div class="copy">
+    <main>
+      <section>
+        <h2>Preston Idaho</h2>
+        <img src="https://via.placeholder.com/800x250" alt="Hero Image" />
+        <div>
+          <h3>Weather Summary</h3>
           <p>
-            &copy; <span id="year"></span> | Kendrick Jude Aaron Mausisa |
-            California |
-            <a href="https://byui.instructure.com/">BYUI Online Learning</a>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic
+            nostrum officia iusto ullam, nobis reiciendis accusantium
+            laudantium. Consectetur reprehenderit cum in labore nisi! Eligendi
+            quis exercitationem nam libero fuga!
           </p>
-          <p id="lastUpdate"></p>
         </div>
-      </footer>
+      </section>
+
+      <section class="forecast">
+        <h3>Five Day Forecast</h3>
+        <div>
+          <ul>
+            <img src="https://via.placeholder.com/125x125" alt="placeholder" />
+            <img src="https://via.placeholder.com/125x125" alt="placeholder" />
+            <img src="https://via.placeholder.com/125x125" alt="placeholder" />
+            <img src="https://via.placeholder.com/125x125" alt="placeholder" />
+            <img src="https://via.placeholder.com/125x125" alt="placeholder" />
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3>Article Title</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+          voluptatum sint error, possimus reiciendis voluptatem ducimus labore
+          odio accusamus quia ea fugiat ratione inventore. Perferendis harum
+          consectetur similique et mollitia! A eligendi, facere aperiam tempore
+          iste sunt eius, reiciendis, quod veniam odio temporibus doloremque
+          tenetur odit corporis rerum asperiores totam velit ratione illum vel
+          rem eveniet? Commodi beatae dolores exercitationem.
+        </p>
+        <img src="https://via.placeholder.com/300x300" alt="placeholder">
+      </section>
+    </main>
+
+    <footer>
+      <div class="contact">
+        <h3>Contact Information</h3>
+        <p>Telephone: (123) 456-7890</p>
+        <p>Email: weather@weathersite.com</p>
+      </div>
+
+      <div class="map">
+        <img src="https://via.placeholder.com/300x150" alt="Location Map" />
+      </div>
+
+      <div class="copy">
+        <p>
+          &copy; <span id="year"></span> | Kendrick Jude Aaron Mausisa |
+          California |
+          <a href="https://byui.instructure.com/">BYUI Online Learning</a>
+        </p>
+        <p id="lastUpdate"></p>
+      </div>
+    </footer>
   </body>
 </html>

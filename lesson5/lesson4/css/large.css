@@ -1,4 +1,19 @@
 @media only screen and (min-width: 62.5rem) {
+
+    nav ul {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        color: white;
+      }
+
+    .forecast {
+        background-color: #483d3f;
+    }
     
     footer {
         display: grid;
