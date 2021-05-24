@@ -56,6 +56,17 @@ nav ul.hide {
   clear: both;
 }
 
+main section {
+  margin: 16px 0;
+}
+.weather-report,
+.forecast {
+  background-color: #483d3f;
+  border: 4px solid #a39a92;
+  color: white;
+  padding: 16px;
+}
+
 footer {
   background-color: #483d3f;
   color: #fff;
