@@ -60,7 +60,8 @@ main section {
   margin: 16px 0;
 }
 .weather-report,
-.forecast {
+.forecast,
+.article {
   background-color: #483d3f;
   border: 4px solid #a39a92;
   color: white;

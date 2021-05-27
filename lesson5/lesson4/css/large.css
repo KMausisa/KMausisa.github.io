@@ -11,12 +11,20 @@
       }
 
     .weather-report {
-        float: left;
+        position: absolute;
+        max-width: 200px;
+        top: 320px;
+	    left: 285px;
     }
 
-    .forecast-images {
+    .forecast-images ul {
         display: flex;
         justify-content: space-between;
+        padding: 0;
+    }
+
+    .article img {
+        float: right;
     }
     
     footer {
