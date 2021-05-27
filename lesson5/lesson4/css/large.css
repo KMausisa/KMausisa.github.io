@@ -23,8 +23,13 @@
         padding: 0;
     }
 
+    .article {
+        overflow: hidden;
+    }
+
     .article img {
         float: right;
+        margin-left: 2%;
     }
     
     footer {
