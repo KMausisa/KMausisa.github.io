@@ -17,6 +17,10 @@
 	    left: 285px;
     }
 
+    .forecast-images {
+        display: block;
+    }
+
     .forecast-images ul {
         display: flex;
         justify-content: space-between;
