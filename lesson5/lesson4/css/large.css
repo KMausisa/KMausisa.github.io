@@ -37,7 +37,7 @@
 
     .article img {
         float: right;
-        margin-left: 2%;
+        margin: 0 16px;
     }
     
     footer {
