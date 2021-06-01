@@ -1,6 +1,7 @@
 @media only screen and (min-width: 35rem) {
     #primaryNav {
 		display: flex;
+        margin: 0;
 	}
 	#primaryNav li {
 		display: block; /* change state in small view */
@@ -29,9 +30,7 @@
         padding: 1rem 1rem;
     }
 
-    header img {
-        width: 80%;
-    }
+    header img {width: 64%;}
 
     .headings h1 {
         font-size: 3rem;
