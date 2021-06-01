@@ -14,7 +14,20 @@ header {
     justify-content: center;
   }
 
-header img {max-width: 100px;}
+header img {width: 80px;}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+.m {
+font-style: italic;
+	letter-spacing: 1pt;
+	color: #fff;
+	margin-left: 20px;
+	font-size: .9rem;
+}
 
 header,
   nav,
