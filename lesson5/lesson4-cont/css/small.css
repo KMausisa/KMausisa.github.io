@@ -76,6 +76,10 @@ footer {
     justify-content: center;
     padding: 10px;
 }
+
+.social-media-images {
+  display: none;
+}
   
 h1 {
     font-size: 2rem;
