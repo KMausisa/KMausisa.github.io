@@ -66,6 +66,44 @@ nav ul.hide {display: none;}
     clear: both;
 }
 
+main section {
+  margin: 0;
+}
+
+.weather-report,
+.forecast-images,
+.article {
+  background-color: #483d3f;
+  border: 4px solid #a39a92;
+  color: white;
+  padding: 16px;
+}
+
+.weather-report{
+  display: block;
+}
+
+
+.hero-image img {
+  width: 100%;
+}
+
+.forecast h3 {
+  background-color: #483d3f;
+  border: 4px solid #a39a92;
+  color: white;
+  padding: 16px;
+  margin-bottom: 0;
+}
+
+.article {
+  margin-top: 0;
+}
+
+.forecast-images {
+  display: none;
+}
+
 footer {
     background-color: #483d3f;
     color: #fff;
