@@ -30,6 +30,12 @@
         padding: 1rem 1rem;
     }
 
+    header picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     header img {width: 64%;}
 
     .headings h1 {
