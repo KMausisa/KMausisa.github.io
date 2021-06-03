@@ -1,4 +1,45 @@
 @media only screen and (min-width: 62.5rem) {
+
+    nav ul {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        
+      }
+
+    main section {
+        margin: 16px;
+    }
+
+    .weather-report {
+        position: absolute;
+        max-width: 200px;
+        top: 320px;
+	    left: 285px;
+    }
+
+    .forecast-images {
+        display: block;
+    }
+
+    .forecast-images ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .article {
+        overflow: hidden;
+    }
+
+    .article img {
+        float: right;
+        margin: 0 16px;
+    }
     
     footer {
         display: grid;
