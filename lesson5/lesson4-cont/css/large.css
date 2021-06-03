@@ -28,7 +28,9 @@
     .weather-report {
         grid-column: 1;
         grid-row: 1;
+        align-self: center;
         max-width: 50%;
+        max-height: 70%;
     }
 
     .forecast-images {
