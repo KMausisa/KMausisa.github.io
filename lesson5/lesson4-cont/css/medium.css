@@ -1,7 +1,7 @@
 @media only screen and (min-width: 35rem) {
     #primaryNav {
 		display: flex;
-        margin: 0;
+        margin: auto;
 	}
 	#primaryNav li {
 		display: block; /* change state in small view */
@@ -26,7 +26,7 @@
 
     nav ul li a {
         border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
+        border: 1px solid rgba(0,0,0,0.3);
         padding: 1rem 1rem;
     }
 

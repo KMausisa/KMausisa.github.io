@@ -15,11 +15,20 @@
         margin: 16px;
     }
 
+    .hero-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-image img{
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
     .weather-report {
-        position: absolute;
-        max-width: 200px;
-        top: 320px;
-	    left: 285px;
+        grid-column: 1;
+        grid-row: 1;
+        max-width: 50%;
     }
 
     .forecast-images {
