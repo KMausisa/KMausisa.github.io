@@ -1,0 +1,14 @@
+h1 {
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+
+picture {
+    display: block;
+    text-align: center;
+}
+
+picture img {
+    margin: 0 auto;
+}
