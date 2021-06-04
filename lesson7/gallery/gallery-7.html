@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="content"
+      description="This assignment will focus on the town page for the overall weather assignment"
+    />
+    <title>Weather Gallery</title>
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../lesson5/lesson4-cont/css/small.css">
+    <link rel="stylesheet" href="../../lesson5/lesson4-cont/css/medium.css">
+    <link rel="stylesheet" href="../../lesson5/lesson4-cont/css/large.css">
+
+    <!-- script-->
+    <!-- <script src="../lazyloading/script.js" defer></script>
+    <script src="../../script.js" defer></script> -->
+
+  </head>
+  <body>
+      <header>
+        <picture>
+          <img src="../../lesson4/images/logo.png" alt="Weather Site Logo">
+        </picture>
+
+        <section class="headings">
+          <h1>The Weather Site</h1>
+          <div class="m">motto</div>
+        </section>
+      </header>
+
+      <nav>
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <header>
+            <h1>Weather Gallery</h1>
+        </header>
+
+        <!-- <body>
+            <picture><img src="https://via.placeholder.com/300x400" data-src="images/image1.jpg" alt="Image"></picture>
+            <picture><img src="https://via.placeholder.com/300x400" data-src="images/image2.jpg" alt="Image"></picture>
+            <picture><img src="https://via.placeholder.com/300x400" data-src="images/image3.jpg" alt="Image"></picture>
+            <picture><img src="https://via.placeholder.com/300x400" data-src="images/image4.jpg" alt="Image"></picture>
+            <picture><img src="https://via.placeholder.com/300x400" data-src="images/image5.jpg" alt="Image"></picture>
+        </body> -->
+      </main>
+
+      <footer>
+        <div class="contact">
+          <h3>Contact Information</h3>
+          <p>Telephone: (123) 456-7890</p>
+          <p>Email: weather@weathersite.com</p>
+        </div>
+
+        <div class="map">
+          <img src="https://via.placeholder.com/300x150" alt="Location Map">
+        </div>
+
+        <div class="copy">
+          <p>
+            &copy; <span id="year"></span> | Kendrick Jude Aaron Mausisa |
+            California |
+            <a href="https://byui.instructure.com/">BYUI Online Learning</a>
+          </p>
+          <p id="lastUpdate"></p>
+        </div>
+      </footer>
+  </body>
+</html>
