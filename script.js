@@ -1,3 +1,5 @@
+
+
 document.querySelector('#lastUpdate').textContent = `Last Updated: ${document.lastModified}`;
 
 const date = new Date();
