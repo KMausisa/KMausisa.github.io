@@ -1,0 +1,50 @@
+@media only screen and (min-width: 35rem) {
+    #primaryNav {
+		display: flex;
+        margin: auto;
+	}
+	#primaryNav li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	#primaryNav a {
+		text-align: center;
+	}
+	#primaryNav li:first-child {
+		display: none;
+	}
+    
+    nav button {display: none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul {margin-left: 2%;}
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border: 1px solid rgba(0,0,0,0.3);
+        padding: 1rem 1rem;
+    }
+
+    header picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header img {width: 64%;}
+
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    .m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+}
