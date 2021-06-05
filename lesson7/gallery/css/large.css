@@ -16,6 +16,10 @@
         margin: 16px;
     }
 
+    #weather-gallery picture img:hover {
+        box-shadow: -5px 7px 7px 0 rgba(80, 80, 80, .5);
+    }
+
     .hero-image {
         display: grid;
         grid-template-columns: 1fr 1fr;
