@@ -47,4 +47,13 @@
 		font-size: larger;
 		margin-left: 17px;
 	}
+
+    #weather-gallery {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #weather-gallery picture img{
+        margin: 8px;
+    }
 }

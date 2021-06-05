@@ -3,21 +3,3 @@ h1 {
     font-size: 2rem;
     text-align: center;
 }
-
-picture {
-    display: block;
-    text-align: center;
-}
-
-picture img {
-    margin: 0 auto;
-}
-
-picture img[data-src] {
-    filter: blur(0.2em);
-}
-  
-picture img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
