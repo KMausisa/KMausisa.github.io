@@ -50,7 +50,65 @@
       </nav>
 
       <main>
-        
+        <form action="thanks.html">
+          <!-- Name -->
+          <label for="fullname">Full Name* <input type="text" minlength="5" id="fullname" name="fullname" required pattern="\w\s\w"></label>
+          <!-- Email -->
+          <label for="email">Email <input type="email" id="email" name="email" placeholder="someone@gmail.com"></label>
+          <!-- Phone Number -->
+          <label for="phoneNumber">Phone Number* <input type="tel" id="phoneNumber" name="phoneNumber" required></label>
+          <!-- Zip Code-->
+          <label for="zipCode">Zip Code* <input type="number" id="zipCode" name="zipCode" required></label>
+          <!-- Storm Date-->
+          <label for="stormDate">Storm Date 
+            <input type="date" id="stormDate" name="stormDate">
+          </label>
+          <!-- Storm Type Input-->
+          <label for="stormType">Storm Type</label>
+          <input list="stormTypes" id="stormType" name="stormType">
+          <datalist id="stormTypes">
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+          </datalist>
+
+          <!-- Storm Severity -->
+          <label for="stormSeverity">Storm Severity <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1"></label>
+
+          <!-- Storm Region -->
+          <label for="stormRegion">Storm Region 
+            <select name="stormRegion" id="stormRegion">
+              <option value="">Select Region...</option>
+              <option value="preston">Preston</option>
+              <option value="soda">Soda Springs</option>
+              <option value="fish">Fish Haven</option>
+            </select>
+          </label>
+          
+          <!-- In-Danger Level -->
+          <div>
+            <legend>In-Danger Level</legend>
+            <div class="selection">
+              <input type="radio" id="yes" name="select" value="yes" checked> <label for="yes">yes</label>
+            </div>
+            <div class="selection">
+              <label><input type="radio" id="maybe" name="select" value="maybe"> maybe</label>
+            </div>
+            <div class="selection">
+              <input type="radio" id="no" name="select" value="no">
+              <label for="no">no</label>
+            </div>
+          </div>
+
+          <!-- Additional Comments and Notes -->
+          <label for="comments">Additional Information and Comments 
+            <textarea name="story" id="story" cols="30" rows="10"></textarea>
+          </label>
+        </form>
+
+        <input type="submit" class="sbutton" value="Confirm Storm">
       </main>
 
       <footer>
