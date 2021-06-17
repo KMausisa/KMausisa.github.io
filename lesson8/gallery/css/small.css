@@ -136,7 +136,7 @@ form legend {
   padding: 0 0.5rem;
 }
 
-form label.top, form div {
+form label.top, form label.storm, form div {
   display: block;
   padding-top: 1rem;
   color: #000;
@@ -153,6 +153,12 @@ form label.top input, form label.storm input, form label.storm select {
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
 }
 
 form legend.danger {
