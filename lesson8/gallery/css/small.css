@@ -170,7 +170,24 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
-/* .sbutton {} */
+form input.sbutton {
+  border: none;
+  margin: 0 auto;
+  background-color: #9c2c13;
+  color: white;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  transition: all 0.3 ease-in;
+}
+
+form input.sbutton:hover {
+  width: 97%;
+  box-shadow: -1px 6px 10px 0 rgba(120, 60, 20, .2);
+}
 
 footer {
     background-color: #483d3f;
