@@ -189,6 +189,17 @@ form input.sbutton:hover {
   box-shadow: -1px 6px 10px 0 rgba(120, 60, 20, .2);
 }
 
+/*------------ Thanks Form ------------*/
+main article.thanks {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #483d3f;
+  border: 4px solid #a39a92;
+  color: white;
+}
+
 footer {
     background-color: #483d3f;
     color: #fff;
