@@ -143,7 +143,7 @@ form label.top, form div {
   font-size: 0.8rem;
 }
 
-form label.top input, form label.storm input {
+form label.top input, form label.storm input, form label.storm select {
   display: block;
   font-size: 1rem;
   border: 1px solid #999;
@@ -200,6 +200,7 @@ main article.thanks {
   color: white;
 }
 
+/*------------ Footer ------------*/
 footer {
     background-color: #483d3f;
     color: #fff;
