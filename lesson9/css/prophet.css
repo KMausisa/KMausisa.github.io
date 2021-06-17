@@ -1,0 +1,48 @@
+/*------------ Importing fonts ------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/*------------ HEADER ------------*/
+body header h1 {
+    text-align: center;
+}
+
+/*------------ HEADER AND MAIN ------------*/
+body header h1, body main {
+    width: 96%;
+    margin: 0 2%;
+    font-family: 'Roboto Slab', serif;
+    color: #04030F;  
+}
+
+/*------------ DIV ------------*/
+div.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.cards section {
+    background-color: #73EEDC;
+    width: 350px;
+    height: 500px;
+    margin: 8px 0;
+    border: 4px solid #73C2BE;
+}
+
+div.cards h2,
+div.cards p {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+div.cards section img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+
