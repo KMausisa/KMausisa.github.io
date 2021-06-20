@@ -31,20 +31,14 @@ font-style: italic;
 }
 
 header,
-  nav,
-  main,
-  footer {
+nav,
+main,
+footer {
     max-width: 100%;
     margin: 16px auto;
   }
 
-nav button {
-    margin: 0.2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color: #fff;
-}
+/*------------ Navigation ------------*/
 
 nav {
     background-color: #483d3f;

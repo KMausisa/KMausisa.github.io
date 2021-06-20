@@ -1,9 +1,8 @@
-
 // A function that gets the element with the class "primaryNav"
-
-
 function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("hide");
+    document
+        .getElementsByClassName("primaryNav")[0]
+        .classList.toggle("responsive");
 }
 
 document.querySelector('#lastUpdate').textContent = `Last Updated: ${document.lastModified}`;
