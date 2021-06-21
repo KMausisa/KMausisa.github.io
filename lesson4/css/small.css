@@ -15,7 +15,9 @@ header {
     justify-content: center;
   }
 
-header img {width: 80px;}
+header img {
+  width: 80px;
+}
 
 .headings {
   display: flex;
@@ -49,10 +51,39 @@ nav {
     align-items: center;
 }
 
+#primaryNav li:first-child{
+  display: block;
+}
 
-nav ul li a:hover {background-color: #a39a92;}
+#primaryNav li {
+  display: none;
+}
 
-nav ul.hide {display: none;}
+nav ul.responsive li {
+	display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+nav ul li a:hover {
+  background-color: #a39a92;
+}
+
+
 
 .clearfix:after {
     content: "";
@@ -73,28 +104,7 @@ footer {
   
 h1 {
     font-size: 2rem;
-}
-  
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-  
-nav ul li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95em;
-}
-  
-nav ul li a:hover {
-      background-color: #77685D;
-}
-   
+}  
   
 footer a {
       color: #fff;
