@@ -79,6 +79,7 @@ nav {
 /*------------ HERO IMAGE ------------*/
 .hero-image picture img {
     width: 100%;
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, .7));
 }
 
 @keyframes fadeInLeft {
