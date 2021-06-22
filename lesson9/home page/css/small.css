@@ -49,8 +49,8 @@ nav {
 }
 .navigation {
 	list-style: none;
+	padding: 0;
     margin: 0;
-	padding: 16px;
 }
 .navigation li:first-child {
 	display: block;
@@ -58,9 +58,10 @@ nav {
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
-	padding: 0.75rem;
+	padding: 1.25rem;
 	text-align: left;
 	text-decoration: none;
 	color: #fff;
@@ -69,7 +70,6 @@ nav {
 
 .navigation a:hover {
 	background-color: #a39a92;
-    border: 4px solid #483d3f;
 }
 
 .responsive li {
