@@ -116,3 +116,18 @@ nav {
     -o-animation-duration:1s;
     animation-delay: 1s;
 }
+
+
+/*------------ FOOTER ------------*/
+footer {
+    margin: 16px auto;
+    padding: 16px;
+	max-width: 100%;
+	background-color: #483d3f;
+    border: 4px solid #a39a92;
+    color: #fff;
+}
+
+footer div.copy p a {
+    color: #fff;
+}
