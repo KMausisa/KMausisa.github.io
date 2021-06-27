@@ -9,9 +9,9 @@ button.addEventListener('click', () =>
 window.onresize = () => {if (window.innerWidth > 760) 
 mainnav.classList.remove('responsive')};
 
-document.querySelector('#lastUpdate').textContent = `Last Updated: ${document.lastModified}`;
-
 const date = new Date();
+
+document.querySelector('#lastUpdate').textContent = date.toDateString();
 
 const year = date.getFullYear();
 
