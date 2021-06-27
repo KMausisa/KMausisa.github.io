@@ -13,6 +13,6 @@ document.querySelector('#lastUpdate').textContent = `Last Updated: ${document.la
 
 const date = new Date();
 
-const year = date.getFullYear();
+const year = date.toDateString();
 
 document.querySelector('#year').textContent = year;
