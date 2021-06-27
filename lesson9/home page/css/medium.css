@@ -29,4 +29,10 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+
+	/*------------ FOOTER ------------*/
+	footer div.map img {
+		width: 98%;
+	}
 }

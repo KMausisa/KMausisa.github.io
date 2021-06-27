@@ -136,6 +136,10 @@ footer div {
     text-align: center;
 }
 
+footer div.map img {
+    width: 250px;
+}
+
 footer div.copy p a {
     color: #fff;
 }
