@@ -32,6 +32,11 @@
 
 
 	/*------------ FOOTER ------------*/
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
 	footer div.map img {
 		width: 98%;
 	}
