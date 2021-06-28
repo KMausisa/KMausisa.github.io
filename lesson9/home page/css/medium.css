@@ -30,6 +30,24 @@
 		display: none;
 	}
 
+	/*------------ MAIN ------------*/
+	main section.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: 16px auto;
+	}
+
+	main section.cards div {
+		max-width: 400px;
+		margin: 0;
+		font-size: 1rem;
+		justify-self: center;
+	}
+
+	main section.cards div img {
+		width: 80%;
+		margin: 10% auto;
+	}
 
 	/*------------ FOOTER ------------*/
 	footer {
