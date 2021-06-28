@@ -53,6 +53,30 @@
 		margin: 10% auto;
 	}
 
+	/*------------ HERO IMAGE ------------*/
+	section.hero-image {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	section.hero-image picture {
+		grid-column: 1 / -1;
+		grid-row: 1;
+		
+	}
+
+	/*------------ WEAHTER SUMMARY ------------*/
+	div.weather-summary {
+		width: 400px;
+		height: 250px;
+		margin-left: 16px;
+		margin-top: auto;
+		margin-bottom: auto;
+		grid-column: 1;
+		grid-row: 1;
+		z-index: 0;
+	}
+
 	/*------------ FOOTER ------------*/
 	footer {
 		display: grid;

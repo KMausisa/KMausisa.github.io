@@ -86,7 +86,7 @@ nav {
     filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, .7));
 }
 
-@keyframes fadeInLeft {
+/* @keyframes fadeInLeft {
     from {
         opacity:0;
         -webkit-transform: translatex(-100px);
@@ -119,7 +119,7 @@ nav {
     -moz-animation-delay: 1s;
     -o-animation-duration:1s;
     animation-delay: 1s;
-}
+} */
 
 /*------------ MAIN ------------*/
 main section.cards div {
@@ -138,6 +138,70 @@ main section.cards div img {
     width: 90%;
     margin: auto 5%;
 }
+
+/*------------ WEATHER SUMMARY ------------*/
+div.weather-summary {
+    max-width: 100%;
+    background-color: #483d3f;
+    color: #fff;
+    margin: 16px auto;
+    padding: 5px 0;
+    border: 4px solid #a39a92;
+    text-align: center;
+}
+
+/* div.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  } */
 
 /*------------ WIREFRAMES ------------*/
 
