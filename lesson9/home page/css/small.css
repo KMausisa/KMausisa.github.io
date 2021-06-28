@@ -139,6 +139,15 @@ main section.cards div img {
     margin: auto 5%;
 }
 
+/*------------ WIREFRAMES ------------*/
+
+picture.wire {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 16px auto;
+}
+
 /*------------ FOOTER ------------*/
 footer {
     display: flex;
