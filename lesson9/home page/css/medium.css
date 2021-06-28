@@ -44,6 +44,10 @@
 		justify-self: center;
 	}
 
+	/* main section.cards div h2 {
+		font-size: 1.5rem;
+	} */
+
 	main section.cards div img {
 		width: 80%;
 		margin: 10% auto;
