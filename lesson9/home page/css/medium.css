@@ -38,8 +38,22 @@
 		/* grid-template-rows: 500px 500px; */
 	}
 
+	footer div.map {
+		grid-column: 1 / 2;
+		grid-row: 1;
+	}
+
+	footer div.contact {
+		grid-column: 2 / 3;
+		grid-row: 1;
+	}
+
 	footer div.map img {
 		margin: 0 auto;
-		width: 70%;
+		width: 60%;
+	}
+
+	footer div.copy {
+		grid-column: span 2;
 	}
 }
