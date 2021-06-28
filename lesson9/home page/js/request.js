@@ -21,30 +21,31 @@ fetch(requestURL)
         if (towndata[i].name == "Soda Springs") {
             // Placing content in each element
             h2.textContent = towndata[i].name;
-            h3.textContent = towndata[i].motto
+            h3.textContent = towndata[i].motto;
             p1.textContent = 'Year Founded: ' + towndata[i].yearFounded;
             p2.textContent = 'Population: ' + towndata[i].currentPopulation;
-            image.setAttribute('src', towndata[i].photo);
+            image.setAttribute('src', `images/${towndata[i].photo}`);
 
         } else if (towndata[i].name == "Fish Haven") {
              // Placing content in each element
              h2.textContent = towndata[i].name;
-             h3.textContent = towndata[i].motto
+             h3.textContent = towndata[i].motto;
              p1.textContent = 'Year Founded: ' + towndata[i].yearFounded;
              p2.textContent = 'Population: ' + towndata[i].currentPopulation;
-             image.setAttribute('src', towndata[i].photo);
+             image.setAttribute('src', `images/${towndata[i].photo}`);
 
         } else if (towndata[i].name == "Preston") {
              // Placing content in each element
              h2.textContent = towndata[i].name;
-             h3.textContent = towndata[i].motto
+             h3.textContent = towndata[i].motto;
              p1.textContent = 'Year Founded: ' + towndata[i].yearFounded;
              p2.textContent = 'Population: ' + towndata[i].currentPopulation;
-             image.setAttribute('src', towndata[i].photo);
+             image.setAttribute('src', `images/${towndata[i].photo}`);
         }
 
         // Appending elements to card (section) element
         card.appendChild(h2);
+        card.appendChild(h3);
         card.appendChild(p1);
         card.appendChild(p2);
         card.appendChild(image);
