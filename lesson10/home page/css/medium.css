@@ -1,0 +1,81 @@
+@media only screen and (min-width: 32.5em) {
+    header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+
+	/*------------ NAVIGATION ------------*/
+	.navigation {
+		display: flex;
+		align-items: center;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+		padding: auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+	/*------------ MAIN ------------*/
+	main section.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: 16px auto;
+	}
+
+	main section.cards div {
+		max-width: 400px;
+		margin: 0;
+		font-size: 1rem;
+		justify-self: center;
+	}
+
+	/* main section.cards div h2 {
+		font-size: 1.5rem;
+	} */
+
+	main section.cards div img {
+		width: 80%;
+		margin: 10% auto;
+	}
+
+	/*------------ FOOTER ------------*/
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		/* grid-template-rows: 500px 500px; */
+	}
+
+	footer div.map {
+		grid-column: 1 / 2;
+		grid-row: 1;
+	}
+
+	footer div.contact {
+		grid-column: 2 / 3;
+		grid-row: 1;
+	}
+
+	footer div.map img {
+		margin: 0 auto;
+		width: 60%;
+	}
+
+	footer div.copy {
+		grid-column: span 2;
+	}
+}
