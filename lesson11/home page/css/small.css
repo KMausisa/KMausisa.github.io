@@ -5,6 +5,16 @@ body {
     margin: 16px;
   }
 
+/*------------ ASIDE ------------*/
+#banner {
+  max-width: 100%;
+  background-color: #FFDD4A;
+  color: #000;
+  margin: 16px auto;
+  padding: 16px;
+  text-align: center;
+}
+
 /*------------ HEADER ------------*/
 
 header {
