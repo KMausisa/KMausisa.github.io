@@ -214,6 +214,38 @@ div.weather-summary {
     }
   } */
 
+/*------------ GALLERY ------------*/
+#weather-gallery picture {
+  text-align: center;
+}
+
+#weather-gallery picture img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#weather-gallery picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+#weather-gallery picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+.weather-report,
+.forecast-images,
+.article {
+  background-color: #483d3f;
+  border: 4px solid #a39a92;
+  color: white;
+  padding: 16px;
+}
+
+.weather-report{
+  display: block;
+}
+
 /*------------ WIREFRAMES ------------*/
 picture.wire {
     display: flex;

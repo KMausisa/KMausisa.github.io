@@ -27,4 +27,4 @@ const months = [
 const dayName = days[date.getDay()];
 const monthName = months[date.getMonth()];
 
-document.querySelector('#year').textContent = `${dayName}, ${date.getDay()} ${monthName} ${date.getFullYear()}`;
+document.querySelector('#year').textContent = `${dayName}, ${date.getDate()} ${monthName} ${date.getFullYear()}`;
