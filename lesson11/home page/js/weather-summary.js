@@ -16,18 +16,23 @@ fetch(apiURL2)
     // calculate Wind Chill
     const avgTemp = jsObject.main.temp;
     const windSpeed = jsObject.wind.speed;
-    let windChill = Math.round(35.74 + (0.6215 * avgTemp) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * avgTemp * Math.pow(windSpeed, 0.16)));
-    
-    // Display Wind Chill
-    document.getElementById('windChill').textContent = windChill;
+    if (avgTemp > 50 && windSpeed < 3.0) {
+      let windChill = Math.round(35.74 + (0.6215 * avgTemp) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * avgTemp * Math.pow(windSpeed, 0.16)));
+      // Display Wind Chill
+      document.getElementById('windChill').textContent = windChill;
+    } else {
+      document.getElementById
+      document.getElementById('windChill').textContent = 'N/A'
+    } 
 
-    // Display humidity
-    document.getElementById('humidity').textContent = jsObject.main.humidity;
+      // Display humidity
+      document.getElementById('humidity').textContent = jsObject.main.humidity;
 
-    // Display wind speed
-    document.getElementById('windSpeed').textContent = windSpeed;
+      // Display wind speed
+      document.getElementById('windSpeed').textContent = windSpeed;
+      
+      
+      // document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
+      // document.getElementById('icon').setAttribute('alt', desc);
     
-    
-    // document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-    // document.getElementById('icon').setAttribute('alt', desc);
   });
