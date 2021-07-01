@@ -1,5 +1,5 @@
 function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
+    document.getElementById("ratingvalue").textContent = rating;
 }
 
 function selectResponse() {
