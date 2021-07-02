@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {
     background-color: #f4ebd9;
     font-size: 16px;
@@ -215,11 +217,17 @@ div.weather-summary {
   } */
 
 /*------------ GALLERY ------------*/
-#weather-gallery picture {
-  text-align: center;
+#weather-gallery {
+  width: 100%;
 }
 
-#weather-gallery picture img {
+#weather-gallery picture {
+  text-align: center;
+  background-color: #fff;
+}
+
+#weather-gallery picture img,
+#weather-gallery picture p {
   max-width: 100%;
   margin: 0 auto;
 }

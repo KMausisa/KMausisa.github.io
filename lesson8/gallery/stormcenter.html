@@ -53,11 +53,20 @@
         <form action="thanks.html">
           <fieldset>
             <legend>Applicant Information</legend>
+
             <!-- Name -->
             <label class="top">
               Full Name* 
-              <input type="text" minlength="5" id="fullname" name="fullname" placeholder="John Doe" pattern="^[a-z ,.'-]+$" required>
+              <input 
+                type="text" 
+                minlength="5" 
+                id="fullname" 
+                name="fullname" 
+                placeholder="John Doe"
+                pattern="[A-Za-z]+[A-Za-z ]+" 
+                required>
             </label>
+
             <!-- Email -->
             <label class="top">
               Email 
