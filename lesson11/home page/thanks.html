@@ -9,44 +9,46 @@
     />
     <meta
       name="content"
-      description="This assignment will focus on the town page for the overall weather assignment"
+      description="This page gives a thanks to the user for helping their community by reporting a nearby storm"
     />
-    <title>Weather Gallery</title>
+    <title>Storm Center: Submission</title>
 
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
     <!-- script-->
-    <script src="js/script.js" defer></script>
+    <script src="js/responsive.js" defer></script>
+    <script src="js/date.js" defer></script>
+    <script src="js/radio.js" defer></script>
 
   </head>
   <body>
-      <header>
-        <picture>
-          <img src="images/Logo/logo.png" alt="Weather Site Logo">
-        </picture>
+    <header>
+      <picture>
+        <img src="images/logo-128px.png" alt="Weather Site Logo">
+      </picture>
 
-        <section class="headings">
-          <h1>The Weather Site</h1>
-          <div class="m">motto</div>
-        </section>
-      </header>
+      <section class="headings">
+        <h1>Sunset Valley</h1>
+        <div class="m">Sunshine Valley here we come!</div>
+      </section>
+    </header>
 
-      <nav>
-        <button onclick="toggleMenu()">&#9776</button>
-        <ul id="primaryNav" class="hide">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Preston</a></li>
-          <li><a href="#">Soda Springs</a></li>
-          <li><a href="#">Fish Haven</a></li>
-          <li><a href="#">Storm Center</a></li>
-          <li><a href="#">Gallery</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul class="navigation">
+        <li><a class="menu" href="#">&#9776; Menu</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
 
       <main>
         <article class="thanks">
@@ -58,12 +60,18 @@
       <footer>
         <div class="contact">
           <h3>Contact Information</h3>
+          <p>Location: 4768 Orange St, Sunset Valley</p>
           <p>Telephone: (123) 456-7890</p>
-          <p>Email: weather@weathersite.com</p>
+          <p>Email: sunsetvalley@sunsetvalley.com</p>
+          <div class="social-media">
+            <img src="images/social-images/instagram-icon.png" alt="Instagram Icon">
+            <img src="images/social-images/twitter-icon.png" alt="Twitter Icon">
+            <img src="images/social-images/facebook-icon.png" alt="Facebook Icon">
+          </div>
         </div>
 
         <div class="map">
-          <img src="https://via.placeholder.com/300x150" alt="Location Map">
+          <img src="images/map-images/footer-map-504x520.jpg" alt="Location Map">
         </div>
 
         <div class="copy">
@@ -72,7 +80,6 @@
             California |
             <a href="https://byui.instructure.com/">BYUI Online Learning</a>
           </p>
-          <p id="lastUpdate"></p>
         </div>
       </footer>
   </body>
