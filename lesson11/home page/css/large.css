@@ -12,4 +12,14 @@
         max-width: 50%;
         max-height: 70%;
     }
+
+    /*------------ FORM ------------*/
+    form {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    form label.sbs {
+        padding: 0.4rem 0;
+    }
 }
