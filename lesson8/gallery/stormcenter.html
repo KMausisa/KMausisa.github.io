@@ -120,9 +120,19 @@
 
             <!-- Storm Severity -->
             <label class="storm" for="stormSeverity">
-              Storm Severity: <span id="ratingvalue">5</span> 
-              <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1" list="tickmarks"
-                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+              Storm Severity: 
+              <span id="ratingvalue">5</span> 
+              <input 
+                type="range" 
+                id="stormSeverity" 
+                name="stormSeverity" 
+                value="5" 
+                min="1" 
+                max="10" 
+                step="1" 
+                list="tickmarks"
+                oninput="adjustRating(this.value)" 
+                onchange="adjustRating(this.value)">
             </label>
 
             <datalist id="tickmarks">
