@@ -216,6 +216,84 @@ div.weather-summary {
     }
   } */
 
+/*------------ STORM CENTER FORM ------------*/
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #483d3f;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  font-size: 1.25rem;
+  color: #483d3f;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top, form label.storm, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #000;
+}
+
+form label.top input, form label.storm input, form label.storm select {
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+}
+
+form legend.danger {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+form label textarea {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+form input.sbutton {
+  border: none;
+  margin: 0 auto;
+  background-color: #9c2c13;
+  color: white;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+  transition: all 0.3 ease-in;
+}
+
+form input.sbutton:hover {
+  width: 97%;
+  box-shadow: -1px 6px 10px 0 rgba(120, 60, 20, .2);
+}
 /*------------ GALLERY ------------*/
 #weather-gallery {
   width: 100%;
