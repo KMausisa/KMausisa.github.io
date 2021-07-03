@@ -11,7 +11,7 @@ fetch(apiURL2)
     document.getElementById('currentTemp').textContent = jsObject.weather[0].description;
 
     // Display High Temperature
-    document.getElementById('highTemp').textContent = jsObject.main.temp_max;
+    document.getElementById('highTemp').textContent = Math.round(jsObject.main.temp_max);
 
     // calculate Wind Chill
     const avgTemp = jsObject.main.temp;
