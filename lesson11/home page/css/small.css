@@ -133,9 +133,9 @@ nav {
     animation-delay: 1s;
 } */
 
-/*------------ MAIN ------------*/
+/*------------ HOME PAGE ------------*/
 
-main section.cards div {
+main section.cards section {
     max-width: 100%;
     background-color: #483d3f;
     color: #fff;
@@ -145,10 +145,9 @@ main section.cards div {
     font-size: 0.75rem;
     margin: 16px auto;
     padding: 8px;
-    display: grid;
 }
 
-main section.cards div img {
+main section.cards section img {
     width: 90%;
     margin: auto 5%;
 }

@@ -1,5 +1,22 @@
 @media only screen and (min-width: 62.5rem) {
 
+    /*------------ HOME PAGE ------------*/
+	main section.cards {
+        display: flex;
+        justify-content: space-around;
+	}
+
+    main section.cards section {
+        display: block;
+    }
+
+	main section.cards section {
+		max-width: 400px;
+		margin: 0;
+		font-size: 1rem;
+		justify-self: center;
+	}
+
     /*------------ WEATHER SUMMARY ------------*/
     div.weather-summary {
         width: 400px;
