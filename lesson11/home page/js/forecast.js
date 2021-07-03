@@ -8,7 +8,7 @@ fetch(apiURL)
   .then((jsObject) => {
     // console.log(jsObject);
     let day = 0;
-    const dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const fiveDayForecast = jsObject.list.filter(forecast => forecast.dt_txt.includes('18:00:00'));
     console.log(fiveDayForecast);
 

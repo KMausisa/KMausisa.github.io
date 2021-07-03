@@ -1,5 +1,25 @@
 @media only screen and (min-width: 62.5rem) {
 
+    /*------------ WEATHER SUMMARY ------------*/
+    div.weather-summary {
+        width: 400px;
+		height: 250px;
+        margin: auto 0;
+        margin-left: 16px;
+    }
+
+    div.weather-summary h2, 
+	div.weather-summary p {
+		margin: 16px auto;
+	}
+
+    /*------------ FORECAST -----------*/
+    section.forecast {
+        width: 65%;
+        margin: 16px 17.5%;
+    }
+
+
     /*------------ GALLERY ------------*/
     #weather-gallery picture img:hover {
         box-shadow: -5px 7px 7px 0 rgba(80, 80, 80, .5);

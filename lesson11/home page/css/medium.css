@@ -72,15 +72,20 @@
 
 	/*------------ WEAHTER SUMMARY ------------*/
 	div.weather-summary {
-		width: 400px;
-		height: 250px;
+		width: 300px;
+		height: 200px;
 		margin-left: 16px;
-		margin-top: auto;
+		margin-top: 16px;
 		margin-bottom: auto;
 		grid-column: 1;
 		grid-row: 1;
 		z-index: 0;
 		font-size: 1rem;
+	}
+
+	div.weather-summary h2, 
+	div.weather-summary p {
+		margin: 8px auto;
 	}
 
 	/*------------ FORECAST ------------*/
@@ -93,6 +98,11 @@
 	section.forecast h2 {
 		grid-column: 1 / span 5;
 		grid-row: 1;
+	}
+
+	section.forecast p img {
+		display: block;
+		margin: 0 auto;
 	}
 
 	section.forecast p.description {

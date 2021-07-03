@@ -62,7 +62,7 @@ nav {
 .navigation {
 	list-style: none;
 	padding: 0;
-    margin: 0;
+  margin: 0;
 }
 .navigation li:first-child {
 	display: block;
@@ -342,7 +342,7 @@ picture.wire {
 
 /*------------ FORECAST ------------*/
 section.forecast {
-    max-width: 100%;
+  width: 100%;
     background-color: #483d3f;
     color: #fff;
     margin: 16px auto;
