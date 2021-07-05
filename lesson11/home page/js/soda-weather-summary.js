@@ -1,9 +1,9 @@
-const cityid2 = '5604473';
-const apiid2 = '0d648c9f2d64c1cd646caf6d06eb1492';
+const sodaSpringsCityId = '5607916';
+const apiIdSoda = '0d648c9f2d64c1cd646caf6d06eb1492';
 
-const apiURL2 = `https://api.openweathermap.org/data/2.5/weather?id=${cityid2}&appid=${apiid2}&units=imperial`;
+const apiURLSoda = `https://api.openweathermap.org/data/2.5/weather?id=${sodaSpringsCityId}&appid=${apiIdSoda}&units=imperial`;
 
-fetch(apiURL2)
+fetch(apiURLSoda)
   .then((response) => response.json())
   .then((jsObject) => {
     // Display current weather
@@ -28,10 +28,6 @@ fetch(apiURL2)
       document.getElementById('humidity').textContent = jsObject.main.humidity;
 
       // Display wind speed
-      document.getElementById('windSpeed').textContent = windSpeed;
-      
-      
-      // document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-      // document.getElementById('icon').setAttribute('alt', desc);
+      document.getElementById('windSpeed').textContent = Math.round(windSpeed);
     
   });

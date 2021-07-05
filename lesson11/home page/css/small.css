@@ -234,13 +234,14 @@ article {
 article div.article-heading {
   width: 75%;
   margin: 0 auto;
+  text-align: center;
 }
 
-article div.article-heading h2 {
+article div.article-heading h2{
   margin-bottom: 8px;
 }
 
-article div.article-heading p {
+article div.article-heading p{
   margin-top: 0;
 }
 

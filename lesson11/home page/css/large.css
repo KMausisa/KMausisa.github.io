@@ -54,12 +54,11 @@
 	}
 
     article figure.article-image {
-        float: right;
-        margin-top: 0;
-        margin-bottom: 16px;
+        width: 45%;
+        margin: 0 auto;
     }
 
-    article figure.clearfix::after {
+    article figure.clearfix {
         content: "";
         clear: both;
         display: table;

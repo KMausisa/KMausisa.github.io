@@ -160,7 +160,8 @@
 
 	/*------------ ARTICLE ------------*/
 	article figure.article-image {
-		text-align: center;
+		width: 70%;
+		margin: 0 auto;
 	}
 
 	/*------------ EVENTS ------------*/
