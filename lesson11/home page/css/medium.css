@@ -169,11 +169,19 @@
 	}
 	/*------------ GALLERY ------------*/
 	#weather-gallery {
+		width: 80%;
         margin: 0 auto;
         text-align: center;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+    }
+
+	#weather-gallery figure {
+		margin: 0 auto;
     }
 
     #weather-gallery picture img {
+		width: 70%;
         margin: 8px;
     }
 

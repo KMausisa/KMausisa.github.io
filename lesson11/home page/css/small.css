@@ -357,11 +357,9 @@ form input.sbutton:hover {
 
 #weather-gallery picture {
   text-align: center;
-  background-color: #fff;
 }
 
-#weather-gallery picture img,
-#weather-gallery picture p {
+#weather-gallery picture img {
   max-width: 100%;
   margin: 0 auto;
 }
@@ -373,6 +371,10 @@ form input.sbutton:hover {
 #weather-gallery picture img {
   filter: blur(0em);
   transition: filter 0.5s;
+}
+
+#weather-gallery figure figcaption {
+  display: none;
 }
 
 .weather-report,
