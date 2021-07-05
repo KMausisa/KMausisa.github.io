@@ -1,9 +1,6 @@
-const sodaSpringsCityIdForecast = '5607916';
-const apiIdSodaForecast = '0d648c9f2d64c1cd646caf6d06eb1492';
+const apiURLFishHaven2 = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0372&lon=-111.3960&units=imperial&appid=90899f2531f315e25562f0f4572b08c9";
 
-const apiURLSodaForecast = `https://api.openweathermap.org/data/2.5/forecast?id=${sodaSpringsCityIdForecast}&appid=${apiIdSodaForecast}&units=imperial`;
-
-fetch(apiURLSodaForecast)
+fetch(apiURLFishHaven2)
   .then((response) => response.json())
   .then((jsObject) => {
     let day = 0;
