@@ -13,12 +13,11 @@
     />
     <title>Preston Town Page</title>
 
-
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
 
     <!-- scripts -->
     <script src="js/responsive.js" defer></script>
@@ -26,98 +25,147 @@
     <script src="js/weather-summary.js" defer></script>
     <script src="js/forecast.js" defer></script>
     <script src="js/saturday-banner.js" defer></script>
-
   </head>
   <body>
-      <aside id="banner" style="display: none;"></aside>
-      <header>
+    <aside id="banner" style="display: none"></aside>
+    <header>
+      <picture>
+        <img src="images/logo-128px.png" alt="Weather Site Logo" />
+      </picture>
+
+      <section class="headings">
+        <h1>Sunset Valley</h1>
+        <div class="m">Sunshine Valley here we come!</div>
+      </section>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a class="menu" href="#">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2 class="page-name">Preston Idaho</h2>
+      <section class="hero-image">
         <picture>
-          <img src="images/logo-128px.png" alt="Weather Site Logo">
+          <img
+            class="in-left"
+            src="images/hero-images/hero-image-1/hero-image-1280x409.jpg"
+            alt="hero image"
+          />
         </picture>
 
-        <section class="headings">
-          <h1>Sunset Valley</h1>
-          <div class="m">Sunshine Valley here we come!</div>
-        </section>
-      </header>
-
-      <nav>
-        <ul class="navigation">
-          <li><a class="menu" href="#">&#9776; Menu</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="preston.html">Preston</a></li>
-          <li><a href="#">Soda Springs</a></li>
-          <li><a href="#">Fish Haven</a></li>
-          <li><a href="stormcenter.html">Storm Center</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-      </nav>
-
-      <main>
-        <h2 class="page-name">Preston Idaho</h2>
-        <section class="hero-image">
-          <picture>
-            <img class="in-left" src="images/hero-images/hero-image-1/hero-image-1280x409.jpg" alt="hero image">
-          </picture>
-
-          <div class="weather-summary fade-in">
-            <h2>Weather Summary</h2>
-            <p>Currently: <span id="currentTemp"></span></p>
-            <p>High: <span id="highTemp"></span>&deg; F</p>
-            <p>Wind Chill: <span id="windChill"></span>&deg; F</p>
-            <p>Humidity: <span id="humidity"></span>%</p>
-            <p>Wind Speed: <span id="windSpeed"></span> mph</p>
-          </div>
-        </section>
-
-        <section class="forecast">
-            <h2>OpenWeatherMap API - 5 Day Forecast</h2>
-            <p class="description">High Temperature Forecasts at 6pm of each day going forward.</p>
-            <p class="one">
-              <span id="dayOfWeek1"></span> <img id="icon1" src="" alt=""> <span id="forecast1"></span>&deg; F
-            </p>
-            <p class="two">
-              <span id="dayOfWeek2"></span> <img id="icon2" src="" alt=""> <span id="forecast2"></span>&deg; F 
-            </p>
-            <p class="three">
-              <span id="dayOfWeek3"></span> <img id="icon3" src="" alt=""> <span id="forecast3"></span>&deg; F
-            </p>
-            <p class="four">
-              <span id="dayOfWeek4"></span> <img id="icon4" src="" alt=""> <span id="forecast4"></span>&deg; F
-            </p>
-            <p class="five">
-              <span id="dayOfWeek5"></span> <img id="icon5" src="" alt=""> <span id="forecast5"></span>&deg; F 
-            </p>
-        </section>
-
-        <section class="cards"></section>
-      </main>
-
-
-      <footer>
-        <div class="contact">
-          <h3>Contact Information</h3>
-          <p>Location: 4768 Orange St, Sunset Valley</p>
-          <p>Telephone: (123) 456-7890</p>
-          <p>Email: sunsetvalley@sunsetvalley.com</p>
-          <div class="social-media">
-            <img src="images/social-images/instagram-icon.png" alt="Instagram Icon">
-            <img src="images/social-images/twitter-icon.png" alt="Twitter Icon">
-            <img src="images/social-images/facebook-icon.png" alt="Facebook Icon">
-          </div>
+        <div class="weather-summary fade-in">
+          <h2>Weather Summary</h2>
+          <p>Currently: <span id="currentTemp"></span></p>
+          <p>High: <span id="highTemp"></span>&deg; F</p>
+          <p>Wind Chill: <span id="windChill"></span>&deg; F</p>
+          <p>Humidity: <span id="humidity"></span>%</p>
+          <p>Wind Speed: <span id="windSpeed"></span> mph</p>
         </div>
+      </section>
 
-        <div class="map">
-          <img src="images/map-images/footer-map-504x520.jpg" alt="Location Map">
+      <section class="forecast">
+        <h2>OpenWeatherMap API - 5 Day Forecast</h2>
+        <p class="description">
+          High Temperature Forecasts at 6pm of each day going forward.
+        </p>
+        <p class="one">
+          <span id="dayOfWeek1"></span> <img id="icon1" src="" alt="" />
+          <span id="forecast1"></span>&deg; F
+        </p>
+        <p class="two">
+          <span id="dayOfWeek2"></span> <img id="icon2" src="" alt="" />
+          <span id="forecast2"></span>&deg; F
+        </p>
+        <p class="three">
+          <span id="dayOfWeek3"></span> <img id="icon3" src="" alt="" />
+          <span id="forecast3"></span>&deg; F
+        </p>
+        <p class="four">
+          <span id="dayOfWeek4"></span> <img id="icon4" src="" alt="" />
+          <span id="forecast4"></span>&deg; F
+        </p>
+        <p class="five">
+          <span id="dayOfWeek5"></span> <img id="icon5" src="" alt="" />
+          <span id="forecast5"></span>&deg; F
+        </p>
+      </section>
+
+      <article>
+        <div class="article-heading">
+          <h2>The Gloomy Yet Comforting Trail Hike</h2>
+          <p>by John Doe</p>
         </div>
-
-        <div class="copy">
+        <div class="story">
+          <figure class="article-image clearfix">
+            <img
+              src="images/article-images/preston-page/preston-article-image-572x466.jpg"
+              alt="Bench Overlooking Sunrise"
+            />
+          </figure>
           <p>
-            &copy; <span id="year"></span> | Kendrick Jude Aaron Mausisa |
-            California |
-            <a href="https://byui.instructure.com/">BYUI Online Learning</a>
+            It was a chilly morning, as expected in Preston Idaho. The air cold
+            and the wind light, nature is begginning to wake up around this
+            time. My parents and I decided to hike up the Green Mountain Trail,
+            which conveniently started right next to our house. The trail was
+            slow, yet calming. The crunching of leaves from each step we take,
+            to the dense fog that is travelling above the redwood treetops. A
+            sense of comfort could be felt throughout our journey. After ten
+            minutes of walking, the fog suddenly dispersed, the trees began to
+            clear up and we arrived at a bench overlooking the cliffside of the
+            Mountain. And to our surprise, the golden sun began to wake up as
+            well, giving us warmth and comfort. We all sat on the bench and
+            silently starred into the sun. It was almost as if it was a dream,
+            and tiny sprouts of tears came out of my eyes. I slowly closed my
+            eyes and whispered to myself, "This is what I live for."
           </p>
         </div>
-      </footer>
+      </article>
+
+      <section class="cards"></section>
+    </main>
+
+    <footer>
+      <div class="contact">
+        <h3>Contact Information</h3>
+        <p>Location: 4768 Orange St, Sunset Valley</p>
+        <p>Telephone: (123) 456-7890</p>
+        <p>Email: sunsetvalley@sunsetvalley.com</p>
+        <div class="social-media">
+          <img
+            src="images/social-images/instagram-icon.png"
+            alt="Instagram Icon"
+          />
+          <img src="images/social-images/twitter-icon.png" alt="Twitter Icon" />
+          <img
+            src="images/social-images/facebook-icon.png"
+            alt="Facebook Icon"
+          />
+        </div>
+      </div>
+
+      <div class="map">
+        <img
+          src="images/map-images/footer-map-504x520.jpg"
+          alt="Location Map"
+        />
+      </div>
+
+      <div class="copy">
+        <p>
+          &copy; <span id="year"></span> | Kendrick Jude Aaron Mausisa |
+          California |
+          <a href="https://byui.instructure.com/">BYUI Online Learning</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

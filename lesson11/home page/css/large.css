@@ -1,5 +1,11 @@
 @media only screen and (min-width: 62.5rem) {
 
+    /*------------ NAVIGATION ------------*/
+    .navigation {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     /*------------ HOME PAGE ------------*/
 	main section.cards {
         display: flex;
@@ -17,12 +23,18 @@
 		justify-self: center;
 	}
 
+    /*------------ HERO IMAGE ------------*/
+    section.hero-image picture {
+        width: 90%;
+        margin: 0 auto;
+    } 
+
     /*------------ WEATHER SUMMARY ------------*/
     div.weather-summary {
         width: 400px;
 		height: 250px;
         margin: auto 0;
-        margin-left: 16px;
+        margin-left: 96px;
     }
 
     div.weather-summary h2, 
@@ -34,6 +46,23 @@
     section.forecast {
         width: 65%;
         margin: 16px 17.5%;
+    }
+
+    /*------------ ARTICLE ------------*/
+	article {
+		width: 90%;
+	}
+
+    article figure.article-image {
+        float: right;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    article figure.clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 
 
