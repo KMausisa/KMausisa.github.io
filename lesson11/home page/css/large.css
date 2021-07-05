@@ -88,4 +88,13 @@
     form label.sbs {
         padding: 0.4rem 0;
     }
+
+    /*------------ FOOTER ------------*/
+    footer div.map img {
+        margin-left: 15%;
+    }
+
+    footer div.contact {
+        width: 80%;
+    }
 }

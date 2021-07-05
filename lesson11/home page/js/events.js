@@ -1,9 +1,30 @@
-const cityid = '5604473';
-const apiid = '0d648c9f2d64c1cd646caf6d06eb1492';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-const apiURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${apiid}&units=imperial`;
+// Fetch Method
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    // Creating an array based on jsonObject
+    const towndata = jsonObject['towns'];
+    
+    let p1 = document.createElement('p');
+    let p2 = document.createElement('p');
+    let p3 = document.createElement('p');
 
-fetch(apiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
+    for (let i = 0; i < towndata.length; i++) {
+      if (towndata[i].name == "Preston") {
+        // Placing content in each element
+        p1.textContent = towndata[i].events[0];
+        p2.textContent = towndata[i].events[1];
+        p3.textContent = towndata[i].events[2];
+
+
+        // Appending card element to div.cards
+        document.querySelector('section.events').appendChild(p1);
+        document.querySelector('section.events').appendChild(p2);
+        document.querySelector('section.events').appendChild(p3);
+      }
+    }
   });

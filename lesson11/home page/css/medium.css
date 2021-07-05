@@ -163,6 +163,10 @@
 		text-align: center;
 	}
 
+	/*------------ EVENTS ------------*/
+	section.events {
+		width: 50%;
+	}
 	/*------------ GALLERY ------------*/
 	#weather-gallery {
         margin: 0 auto;

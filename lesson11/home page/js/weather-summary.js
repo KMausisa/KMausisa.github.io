@@ -6,7 +6,6 @@ const apiURL2 = `https://api.openweathermap.org/data/2.5/weather?id=${cityid2}&a
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
-      console.log(jsObject);
     // Display current weather
     document.getElementById('currentTemp').textContent = jsObject.weather[0].description;
 
