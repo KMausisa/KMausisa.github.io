@@ -352,6 +352,10 @@ form input.sbutton:hover {
   box-shadow: -1px 6px 10px 0 rgba(120, 60, 20, .2);
 }
 /*------------ GALLERY ------------*/
+section.gallery-header {
+  display: block;
+  text-align: center;
+}
 #weather-gallery {
   width: 100%;
 }

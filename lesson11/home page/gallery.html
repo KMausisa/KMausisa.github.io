@@ -24,6 +24,7 @@
     <script src="js/responsive.js" defer></script>
     <script src="js/date.js" defer></script>
     <script src="js/lazyloading.js" defer></script>
+    <script src="js/localStorage.js" defer></script>
     
 
   </head>
@@ -52,9 +53,10 @@
       </nav>
 
       <main>
-        <header>
-            <h1>Weather Gallery</h1>
-        </header>
+        <section class="gallery-header">
+            <h2>Weather Gallery</h2>
+            <p>Days since last visit: <span id="last-date"></span></p>
+        </section>
 
         <section id="weather-gallery">
           <figure>
