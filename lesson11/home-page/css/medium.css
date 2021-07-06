@@ -199,6 +199,14 @@
         margin: 8px;
     }
 
+	/*------------ THANKS FORM ------------*/
+	article.thanks h2,
+	article.thanks p {
+		width: 75%;
+		margin: 8px auto;
+		line-height: 1.6;
+	}
+
 	/*------------ FOOTER ------------*/
 	footer {
 		display: grid;

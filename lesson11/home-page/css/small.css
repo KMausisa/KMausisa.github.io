@@ -354,6 +354,7 @@ form input.sbutton:hover {
 
 article.thanks {
   text-align: center;
+  margin: 0 auto;
 }
 /*------------ GALLERY ------------*/
 section.gallery-header {
