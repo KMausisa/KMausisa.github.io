@@ -232,12 +232,12 @@ article {
 }
 
 article div.article-heading {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 
-article div.article-heading h2{
+article div.article-heading h2 {
   margin-bottom: 8px;
 }
 
@@ -350,6 +350,10 @@ form input.sbutton {
 form input.sbutton:hover {
   width: 97%;
   box-shadow: -1px 6px 10px 0 rgba(120, 60, 20, .2);
+}
+
+article.thanks {
+  text-align: center;
 }
 /*------------ GALLERY ------------*/
 section.gallery-header {

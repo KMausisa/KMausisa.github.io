@@ -159,14 +159,28 @@
 	  }
 
 	/*------------ ARTICLE ------------*/
+	article div.article-heading {
+		width: 500px;
+		text-align: left;
+		margin-left: 72px;
+		margin-right: 0;
+	  }
+
 	article figure.article-image {
 		width: 70%;
 		margin: 0 auto;
+		float: right;
+	}
+
+	article.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
 	}
 
 	/*------------ EVENTS ------------*/
 	section.events {
-		width: 50%;
+		width: 100%;
 	}
 	/*------------ GALLERY ------------*/
 	#weather-gallery {
