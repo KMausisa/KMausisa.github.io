@@ -3,144 +3,185 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      name="content"
-      description="This page displays a gallery of different weather occurences throughout the community"
+      name="description"
+      content="This page displays a gallery of different weather occurences throughout the community"
     />
     <title>Weather Gallery</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
 
     <!-- script-->
     <script src="js/responsive.js" defer></script>
     <script src="js/date.js" defer></script>
     <script src="js/lazyloading.js" defer></script>
     <script src="js/localStorage.js" defer></script>
-    
-
   </head>
   <body>
-      <header>
-        <picture>
-          <img src="images/logo-128px.png" alt="Weather Site Logo">
-        </picture>
+    <header>
+      <picture>
+        <img src="images/logo-128px.png" alt="Weather Site Logo" />
+      </picture>
 
-        <section class="headings">
-          <h1>Sunset Valley</h1>
-          <div class="m">Sunshine Valley here we come!</div>
-        </section>
-      </header>
+      <section class="headings">
+        <h1>Sunset Valley</h1>
+        <div class="m">Sunshine Valley here we come!</div>
+      </section>
+    </header>
 
-      <nav>
-        <ul class="navigation">
-          <li><a class="menu" href="#">&#9776; Menu</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="preston.html">Preston</a></li>
-          <li><a href="soda-springs.html">Soda Springs</a></li>
-          <li><a href="fish-haven.html">Fish Haven</a></li>
-          <li><a href="stormcenter.html">Storm Center</a></li>
-          <li><a class="active" href="gallery.html">Gallery</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul class="navigation">
+        <li><a class="menu" href="#">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="soda-springs.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a class="active" href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
 
-      <main>
-        <section class="gallery-header">
-            <h2>Weather Gallery</h2>
-            <p>Days since last visit: <span id="last-date"></span></p>
-        </section>
+    <main>
+      <section class="gallery-header">
+        <h2>Weather Gallery</h2>
+        <p>Days since last visit: <span id="last-date"></span></p>
+      </section>
 
-        <section id="weather-gallery">
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image1.jpg" alt="Image">
-            </picture>
-            <figcaption>Gloomy Skies</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image2.jpg" alt="Image">
-            </picture>
-            <figcaption>Deep Sunset with Clouds</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image3.jpg" alt="Image">
-            </picture>
-            <figcaption>Strong Lightning at Night</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image4.jpg" alt="Image">
-            </picture>
-            <figcaption>Beautiful Cloud Patterns</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image5.jpg" alt="Image">
-            </picture>
-            <figcaption>Light Snowfall</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image6.jpg" alt="Image">
-            </picture>
-            <figcaption>Moist Conditions</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image7.jpg" alt="Image">
-            </picture>
-            <figcaption>Warm Comfortable Nature</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image8.jpg" alt="Image">
-            </picture>
-            <figcaption>Cloud Variety on Sunset</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <img src="https://via.placeholder.com/400x300" data-src="images/gallery-images/weather-image9.jpg" alt="Image">
-            </picture>
-            <figcaption>Mellow Snow</figcaption>
-        </section>
-      </main>
+      <section id="weather-gallery">
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image1.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Gloomy Skies</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image2.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Deep Sunset with Clouds</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image3.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Strong Lightning at Night</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image4.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Beautiful Cloud Patterns</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image5.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Light Snowfall</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image6.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Moist Conditions</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image7.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Warm Comfortable Nature</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image8.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Cloud Variety on Sunset</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img
+              src="https://via.placeholder.com/400x300"
+              data-src="images/gallery-images/weather-image9.jpg"
+              alt="Image"
+            />
+          </picture>
+          <figcaption>Mellow Snow</figcaption>
+        </figure>
+      </section>
+    </main>
 
-      <footer>
-        <div class="contact">
-          <h3>Contact Information</h3>
-          <p>Location: 4768 Orange St, Sunset Valley</p>
-          <p>Telephone: (123) 456-7890</p>
-          <p>Email: sunsetvalley@sunsetvalley.com</p>
-          <div class="social-media">
-            <img src="images/social-images/instagram-icon.png" alt="Instagram Icon">
-            <img src="images/social-images/twitter-icon.png" alt="Twitter Icon">
-            <img src="images/social-images/facebook-icon.png" alt="Facebook Icon">
-          </div>
+    <footer>
+      <div class="contact">
+        <h3>Contact Information</h3>
+        <p>Location: 4768 Orange St, Sunset Valley</p>
+        <p>Telephone: (123) 456-7890</p>
+        <p>Email: sunsetvalley@sunsetvalley.com</p>
+        <div class="social-media">
+          <img
+            src="images/social-images/instagram-icon.png"
+            alt="Instagram Icon"
+          />
+          <img src="images/social-images/twitter-icon.png" alt="Twitter Icon" />
+          <img
+            src="images/social-images/facebook-icon.png"
+            alt="Facebook Icon"
+          />
         </div>
+      </div>
 
-        <div class="map">
-          <img src="images/map-images/footer-map-504x520.jpg" alt="Location Map">
-        </div>
+      <div class="map">
+        <img
+          src="images/map-images/footer-map-504x520.jpg"
+          alt="Location Map"
+        />
+      </div>
 
-        <div class="copy">
-          <p>
-            &copy; <span id="year"></span> | Kendrick Jude Aaron Mausisa |
-            California |
-            <a href="https://byui.instructure.com/">BYUI Online Learning</a>
-          </p>
-        </div>
-      </footer>
+      <div class="copy">
+        <p>
+          &copy; <span id="year"></span> | Kendrick Jude Aaron Mausisa |
+          California |
+          <a href="https://byui.instructure.com/">BYUI Online Learning</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
