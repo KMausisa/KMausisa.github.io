@@ -9,7 +9,6 @@ fetch(apiURLSoda2)
     let day = 0;
     const dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const fiveDayForecast = jsObject.list.filter(forecast => forecast.dt_txt.includes('18:00:00'));
-    console.log(fiveDayForecast);
 
     // loop through each forecast day
     fiveDayForecast.forEach(x => {
