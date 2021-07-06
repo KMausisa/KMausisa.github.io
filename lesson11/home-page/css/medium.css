@@ -26,7 +26,6 @@
 	.navigation li {
 		display: block; /* change state in small view */
 		flex: 1 1 auto;
-		padding: auto;
 	}
 	.navigation a {
 		text-align: center;

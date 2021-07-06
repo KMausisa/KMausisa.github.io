@@ -344,7 +344,7 @@ form input.sbutton {
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
-  transition: all 0.3 ease-in;
+  transition: all 0.3s ease-in;
 }
 
 form input.sbutton:hover {
