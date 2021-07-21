@@ -314,6 +314,7 @@ form input.submitBtn {
   width: 96%;
   max-width: 20rem;
   transition: all 0.3s ease-in;
+  text-align: center;
 }
 
 form input.sbutton:hover {
