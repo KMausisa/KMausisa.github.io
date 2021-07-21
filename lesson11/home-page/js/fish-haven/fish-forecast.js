@@ -10,7 +10,7 @@ fetch(apiURLFishHaven2)
     // loop through each forecast day
     fiveDayForecast.forEach(x => {
         let d = new Date(x.dt_txt);
-        let imagesrc = 'https://openweathermap.org/img/w/' + x.weather[0].icon + '.png';
+        let imagesrc = 'https://openweathermap.org/img/wn/' + x.weather[0].icon + '.png';
         document.getElementById(`dayOfWeek${day+1}`).textContent = dayOfWeek[d.getDay()];
         document.getElementById(`forecast${day+1}`).textContent = Math.round(x.main.temp);
         document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
